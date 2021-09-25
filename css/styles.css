@@ -22,7 +22,6 @@ body {
 
 .container__grid {
   width: 100%;
-  max-width: 1200px;
   display: grid;
   grid-gap: 20px;
   grid-template-columns: repeat(3, 1fr);
@@ -126,4 +125,16 @@ body {
 
 .creditos a:hover {
   border-bottom: 1px solid #fff;
+}
+
+@media (min-width: 992px) {
+  .main {
+    align-items: center;
+  }
+}
+
+@media (min-width: 1200px) {
+  .main {
+    align-items: center;
+  }
 }
